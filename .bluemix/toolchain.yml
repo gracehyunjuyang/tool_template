@@ -21,12 +21,12 @@ service_orion:
   service_id: orion
 
 # SauceLabs
-service_saucelabs:
-  service_id: saucelabs
-  parameters:
-    key: ''
-    label: ''
-    username: ''
+# service_saucelabs:
+#   service_id: saucelabs
+#   parameters:
+#     key: ''
+#     label: ''
+#     username: ''
 
 # Nexus
 service2:
@@ -117,22 +117,22 @@ service_slack:
   service_id: slack
 
 # draservicebroker
-service_dra:
-  parameters:
-    cf_controller: https://api.ng.bluemix.net
-    dashboard_url: ''
-    dlms_server: https://dlms.ng.bluemix.net
-    dra_server: https://dra.ng.bluemix.net
-    is_developer_insights_enabled: false
-    success:
-      dashboard_url: ''
-    type: default
-  service_id: draservicebroker
+# service_dra:
+#   parameters:
+#     cf_controller: https://api.ng.bluemix.net
+#     dashboard_url: ''
+#     dlms_server: https://dlms.ng.bluemix.net
+#     dra_server: https://dra.ng.bluemix.net
+#     is_developer_insights_enabled: false
+#     success:
+#       dashboard_url: ''
+#     type: default
+#   service_id: draservicebroker
 
 # apm
-service_apm:
-  parameters: {}
-  service_id: apm
+# service_apm:
+#   parameters: {}
+#   service_id: apm
 
 #Deployment
 deploy:
