@@ -5,7 +5,7 @@ version: '0.1'
 
 # GitHub
 service_github:
-  service_id: githubpublic
+  service_id: github_integrated
   parameters:
     repo_name: spring-petclinic-microservices
     repo_url: https://github.ibm.com/hyjyang/spring-petclinic-microservices
