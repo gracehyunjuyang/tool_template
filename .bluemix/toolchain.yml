@@ -8,7 +8,7 @@ service_github:
   service_id: githubpublic
   parameters:
     repo_name: spring-petclinic-microservices
-    repo_url: https://github.com/sdevopsadm/spring-petclinic-microservices
+    repo_url: https://github.ibm.com/hyjyang/spring-petclinic-microservices
     type: clone
     has_issues: true
 
